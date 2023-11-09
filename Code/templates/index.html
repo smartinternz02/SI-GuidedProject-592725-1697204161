@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+  
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+  <!-- css stylesheet -->
+  <link rel="stylesheet" href="../static/css/index.css">
+  
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/91930801a4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">constructGaurd</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./webcam">Get Started!</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">YOLO-based object detection for safety gear surveillance.</h1>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-solid fa-video"></i> <a href="./video">Video</a></button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-solid fa-camera"></i> <a href="./webcam">Webam</a></button>
+        </div>
+        <div class="col-lg-6 title-img-container">
+          <img class="title-img" src="../static/images/contruction.png" alt="construction-img">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 feature-box">
+          <i class="fa-solid fa-circle-check fa-4x feature-icon"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>Our application provides an effortlessly simple UI.</p>
+        </div>
+        <div class="col-lg-4 feature-box">
+          <i class="fa-solid fa-bullseye fa-4x feature-icon"></i>
+          <h3 class="feature-title">Highly Accurate.</h3>
+          <p>Our model has been designed to give highest accuracy.</p>  
+        </div>
+        <div class="col-lg-4 feature-box">
+          <i class="fa-solid fa-heart fa-4x feature-icon"></i>
+          <h3 class="feature-title">Guaranteed to work.</h3>
+          <p>Our Product is loved by all users for its excellent reliability.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    
+    <div id="testimonial-carousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">The application is very simple and easy to use. It has made my work much easier.</h2>
+          <img class="testimonial-image" src="../static/images/lady-img.jpg" alt="lady-profile">
+          <em>jessica, Site Manager</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">The detection of safety gear is very fast and accurate. It has reduced worker injuries significantly in my site.<h2>
+          <img class="testimonial-image" src="../static/images/IshanPhoto.png" alt="ishan-profile">
+          <em>Ishan, Site Manager</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="fa-brands fa-twitter social-img"></i>
+      <i class="fa-brands fa-facebook-f social-img"></i>
+      <i class="fa-brands fa-instagram social-img"></i>
+      <i class="fa-solid fa-envelope social-img"></i>
+      <p>© Copyright constructGaurd</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
