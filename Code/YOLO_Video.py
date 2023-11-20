@@ -10,7 +10,7 @@ def video_detection(path_x):
     frame_height=int(cap.get(4))
     
     #Loading our Model
-    model=YOLO("./Code/Model/content/runs/detect/train2/weights/best.pt")
+    model=YOLO("./Model/content/runs/detect/train2/weights/best.pt")
     #Initialize class names
     classNames = ['Excavator','Gloves','Hardhat','Ladder','Mask','NO-Hardhat','NO-Mask','NO-Safety Vest','Person','SUV',
                   'Safety Cone','Safety Vest','bus','dump truck','fire hydrant','machinery','mini-van','sedan','semi','trailer','truck and trailer',
